@@ -11,14 +11,16 @@ body {
 header,
 footer {
     flex: 1 0 auto;
-    color: bisque;
-    background-color: brown;
+    color: black;
+    background-color: burlywood;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 main {
+    display: flex;
+    justify-content: center;
     flex: 10 0 auto;
     margin: 1rem;
     padding: 1rem;
