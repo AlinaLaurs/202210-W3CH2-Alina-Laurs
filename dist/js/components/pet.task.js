@@ -1,9 +1,8 @@
 import { Component } from './component.js';
-
 export class AddTask extends Component {
-    template: string;
-    constructor(public selector: string) {
+    constructor(selector) {
         super();
+        this.selector = selector;
         this.template = this.createTemplate();
         this.renderOuter(this.selector, this.template);
     }

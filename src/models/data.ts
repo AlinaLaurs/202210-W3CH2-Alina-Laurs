@@ -1,8 +1,7 @@
-import { Task } from './task.js';
+import { Pet } from './pet.js';
 
-export const TASKS: Array<Task> = [
-    new Task('Estudiar', 'Ernesto'),
-    // {title: 'Dormir', responsible: 'Pepe', isComplete: false}
-    new Task('Dormir', 'Pepe'),
-    new Task('Ir al parque', 'Elena'),
+export const PETS: Array<Pet> = [
+    new Pet('Pumba', 'Bulldog inglés', true, 'Alina Laurs'),
+    new Pet('Coco', 'Labrador', true, 'Diego Sanz'),
+    new Pet('Frida', 'Pastor alemán', false, ''),
 ];

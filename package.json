@@ -1,7 +1,7 @@
 {
-    "name": "week3 todo",
+    "name": "Week 3 - Challenge 2",
     "version": "1.0.0",
-    "description": "",
+    "description": "Pet List",
     "main": "index.js",
     "type": "module",
     "scripts": {
@@ -11,7 +11,7 @@
         "test": "jest --watchAll --coverage"
     },
     "keywords": [],
-    "author": "",
+    "author": "Alina Laurs",
     "license": "ISC",
     "prettier": {
         "singleQuote": true
