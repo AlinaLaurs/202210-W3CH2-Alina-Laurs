@@ -39,8 +39,8 @@ export class PetList extends Component {
         this.pets.forEach((item: Pet) => {
             // Recorre mi lista de mascotas y crea el código HTML para mostrarlas.
             template += `
-            <li> ${item.id}, ${item.name}, ${item.race}, ${item.isAdopted}, ${item.adoptiveParent} 
-            <span class="eraser" data-id="${item.id}"> 🗑️</span>
+            <li> ${item.id} - ${item.name}, ${item.race}, ${item.isAdopted}, ${item.adoptiveParent} 
+            <span class="eraser" data-id="${item.id}">🗑️</span>
             </li>`;
         });
         template += `</ul>

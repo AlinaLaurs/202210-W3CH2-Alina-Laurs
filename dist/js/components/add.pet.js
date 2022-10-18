@@ -16,10 +16,10 @@ export class AddPet extends Component {
                 <input type="text" id="race" placeholder="Raza de la mascota" required>
             </div>
             <div>
-                <input type="text" id="isadopted" placeholder="¿Es adoptado?" required>
+                <input type="text" id="isadopted" placeholder="Adoptado" required>
             </div>
             <div>
-                <input type="text" id="adoptiveparent" placeholder="Dueño">
+                <input type="text" id="adoptiveparent" placeholder="Nombre del dueño">
             </div>
             <button type="submit">Guardar</button>
         </form>
