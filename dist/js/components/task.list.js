@@ -1,5 +1,5 @@
 import { TASKS } from '../models/data.js';
-import { Task } from '../models/task.js';
+import { Task } from '../models/pet.js';
 import { AddTask } from './add.task.js';
 import { Component } from './component.js';
 export class TaskList extends Component {

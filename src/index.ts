@@ -1,13 +1,16 @@
 import { Footer } from './components/footer.js';
 import { Header } from './components/header.js';
 import { Main } from './components/main.js';
-import { TaskList } from './components/task.list.js';
-import { TASKS } from './models/data.js';
+import { PetList } from './components/pet.list.js';
+import { PETS } from './models/data.js';
+
+// Aquí estoy ejecutando.
 
 console.log('Loaded index');
-console.log(TASKS);
+console.log(PETS);
 
-new Header('body');
+// Cada vez que pongo «new», estoy llamando a un constructor.
+new Header('body'); // Header irá dentro del body (body es el selector).
 new Main('body');
-new TaskList('main');
+new PetList('main');
 new Footer('body');
